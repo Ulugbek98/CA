@@ -154,6 +154,17 @@ section {
   z-index: 10;
 }
 
+.product__label {
+  width: 80px;
+  height: 25px;
+  border-radius: 0 68px 68px 0;
+  color: #fff;
+  line-height: 24px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
 .product__addto {
   position: absolute;
   right: 16px;
@@ -199,7 +210,6 @@ section {
   font-family: ca;
   font-style: normal;
   font-weight: 400;
-  speak: none;
   display: inline-block;
   text-decoration: inherit;
   text-align: center;
@@ -235,6 +245,17 @@ img.lazy {
   max-width: auto;
   width: auto;
   max-height: 100%;
+}
+
+.product__label__wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.product__new {
+  background-color: #00a0e3;
 }
 
 img {

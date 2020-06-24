@@ -86,7 +86,7 @@ section {
     background: #fff;
     padding: 5px 11px;
     border: 1px solid #fff;
-    box-shadow:0px 1px 2px 2px rgb(172, 172, 172);
+    box-shadow: 0px 1px 2px 2px rgb(172, 172, 172);
     border-radius: 60px;
     display: block;
     position: absolute;
@@ -102,7 +102,7 @@ section {
 .slider-right {
     background: #fff;
     padding: 5px 11px;
-    box-shadow:0px 1px 2px 2px rgb(172, 172, 172);
+    box-shadow: 0px 1px 2px 2px rgb(172, 172, 172);
     border: 1px solid #fff;
     border-radius: 60px;
     display: block;
@@ -153,7 +153,16 @@ section {
     top: 0;
     z-index: 10;
 }
-
+.product__label {
+    width: 80px;
+    height: 25px;
+    border-radius: 0 68px 68px 0;
+    color: #fff;
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
 .product__addto {
     position: absolute;
     right: 16px;
@@ -199,7 +208,6 @@ section {
     font-family: ca;
     font-style: normal;
     font-weight: 400;
-    speak: none;
     display: inline-block;
     text-decoration: inherit;
     text-align: center;
@@ -237,6 +245,15 @@ img.lazy {
     max-height: 100%;
 }
 
+.product__label__wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.product__new {
+    background-color: #00a0e3;
+}
 img {
     max-width: 100%;
     height: auto;
