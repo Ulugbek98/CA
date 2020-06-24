@@ -51,16 +51,44 @@ section {
 }
 
 .js-slider {
+  border: 3px solid #000;
+  position: relative;
   z-index: 1;
   max-width: 100%;
   max-height: 400px;
   overflow: hidden;
   margin: 30px 0 30px 0;
+  display: block;
 }
 
-.js-slider .item {
-  max-width: 245px;
-  margin-right: 16px;
+.js-slider #slider-items {
+  position: relative;
+  display: block;
+  background: #f2f2f2;
+  min-width: 2000px;
+  min-height: 400px;
+  padding: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.js-slider #slider-items .item {
+  min-width: 250px;
+  margin-right: 15px;
+  min-height: 400px;
+  float: left;
+}
+
+.js-slider #slider-left {
+  padding: 10px;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.js-slider #slider-right {
+  padding: 10px;
+  border-radius: 30px;
+  display: inline-block;
 }
 
 .product {
@@ -139,7 +167,8 @@ section {
   display: inline-block;
 }
 
-[class*=" icon-"]::before, [class^="icon-"]::before {
+[class*=" icon-"]::before,
+[class^="icon-"]::before {
   font-family: ca;
   font-style: normal;
   font-weight: 400;
@@ -315,7 +344,8 @@ img {
   line-height: 1.1;
 }
 
-b, strong {
+b,
+strong {
   font-weight: 700;
 }
 
@@ -419,7 +449,7 @@ b, strong {
 
 .product_list:hover .product__rass::after {
   height: 450%;
-}
+} 
 
 .product__feature .product__add-props-table .name_f {
   color: #63686b;
