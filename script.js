@@ -12,7 +12,7 @@ for (var i = 0; i < slides.length; i++) {
   widthArray.push(slides[i].offsetWidth);
   lineWidth += slides[i].offsetWidth;
 }
-line.style.width = lineWidth + "px";
+ line.style.width = lineWidth + "px";
 
 line.style.left = "0px";
 click_right.onclick = function () {
@@ -37,8 +37,6 @@ var js_slider = document.getElementById("slider-items");
 var left = 0;
 function sliderLeft() {
   var pos_right = parseFloat(line.style.left);
-  console.log(pos_right);
-  
   if (pos_right>=-300) {
     line.style.left = '0px'
   } else {
