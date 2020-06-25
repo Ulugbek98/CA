@@ -1,10 +1,12 @@
 * {
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box;
+
 }
 
 body {
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
     background: #f1f2f3 !important;
 }
 
@@ -12,9 +14,8 @@ body {
     max-width: 80% !important;
 }
 
-section {
-    margin-top: 40px;
-    position: relative;
+.mt-30 {
+    margin-top: 30px;
 }
 
 .heading-block {
@@ -47,7 +48,7 @@ section {
     }
 }
 
-.sale h1 {
+section h1 {
     font-weight: 600;
 }
 
@@ -58,7 +59,7 @@ section {
     max-width: 100%;
     max-height: 400px;
     overflow: hidden;
-    margin: 30px 0 30px 0;
+    margin: 30px 0 10px 0;
     display: flex;
 
     .slider-items {
@@ -75,7 +76,7 @@ section {
         .item {
             min-width: 235px;
             margin-right: 15px;
-            min-height: 400px;
+            min-height: 450px;
             float: left;
         }
     }
@@ -153,6 +154,7 @@ section {
     top: 0;
     z-index: 10;
 }
+
 .product__label {
     width: 80px;
     height: 25px;
@@ -163,6 +165,7 @@ section {
     font-weight: 500;
     margin-bottom: 5px;
 }
+
 .product__addto {
     position: absolute;
     right: 16px;
@@ -251,9 +254,11 @@ img.lazy {
     top: 0;
     z-index: 10;
 }
+
 .product__new {
     background-color: #00a0e3;
 }
+
 img {
     max-width: 100%;
     height: auto;
@@ -535,5 +540,50 @@ strong {
 
 }
 
+.banner-large.bx-context-toolbar-empty-area {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
 
+.banner-large__image {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.image-hover-effect {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.js-brands {
+    //border: 3px solid #000;
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+    margin: 30px 0 10px 0;
+    display: flex;
+
+    .slider-brands{
+        position: relative;
+        display: block;
+        background: #f2f2f2;
+        min-height: 100px;
+        padding: 10px;
+        transition: all 0.5s;
+        //border: 3px solid #000;
+        left: 0;
+
+        .item-brand {
+            // max-width: 150px;
+            // margin-right: 10px;
+            // min-height: 100px;
+            float: left;
+        }
+    }
+
+}
 /*# sourceMappingURL=styles.css.map */
