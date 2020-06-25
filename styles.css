@@ -3,6 +3,366 @@
   src: url("./fonts/DINPRO-BLACK.TTF") format("eot"), url("./fonts/DINPRO-BOLD.TTF") format("woff2"), url("./fonts/DINPRO-LIGHT.TTF") format("woff"), url("fonts/Samplino.ttf") format("truetype"), url("fonts/Samplino.svg#Samplino") format("svg");
 }
 
+.col-xl-12 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xl-11 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xl-10 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xl-9 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xl-8 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xl-7 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xl-6 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xl-5 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xl-4 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xl-3 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xl-2 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xl-1 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-lg-12 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-lg-11 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-lg-10 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-lg-9 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-lg-8 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-lg-7 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-lg-6 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-lg-5 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-lg-4 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-lg-3 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-lg-2 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-lg-1 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-md-12 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-md-11 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-md-10 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-md-9 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-md-8 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-md-7 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-md-6 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-md-5 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-md-4 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-md-3 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-md-2 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-md-1 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-sm-12 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-sm-11 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-sm-10 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-sm-9 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-sm-8 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-sm-7 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-sm-6 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-sm-5 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-sm-4 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-sm-3 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-sm-2 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-sm-1 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xs-12 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xs-11 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xs-10 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xs-9 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xs-8 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xs-7 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xs-6 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xs-5 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xs-4 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xs-3 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xs-2 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
+.col-xs-1 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -112,42 +472,6 @@ body {
   color: #344869;
   font-weight: 500;
   font-family: 'Dinpro';
-}
-
-.col-md-6 {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-  margin: 0;
-}
-
-.col-lg-6 {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-  margin: 0;
-}
-
-.col-xs-6 {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-  margin: 0;
-}
-
-.col-sm-6 {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-  margin: 0;
-}
-
-.col-xl-6 {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-  margin: 0;
-}
-
-.col-md-12 {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-  margin: 0;
 }
 
 /* banner promos */
@@ -700,6 +1024,14 @@ strong {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.banner-kids {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .banner-kids .items-kids {
