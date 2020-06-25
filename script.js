@@ -1,5 +1,5 @@
 /*-------------Акции----------------------------------------------------------------------- */
-var click_left = document.querySelector(".slider-left-promo");
+ var click_left = document.querySelector(".slider-left-promo");
 var click_right = document.querySelector(".slider-right-promo");
 var sliderWidth = document.querySelector(".js-slider-promo").offsetWidth;
 var line = document.querySelector(".slider-items-promo");
@@ -48,7 +48,7 @@ function sliderLeft() {
 
 
 /*-------------Новости----------------------------------------------------------------------- */
-
+/* 
 var click_left_new = document.querySelector(".slider-left-new");
 var click_right_new = document.querySelector(".slider-right-new");
 var sliderWidth_new = document.querySelector(".js-slider-new").offsetWidth;
@@ -94,5 +94,5 @@ function sliderLeft() {
     line_new.style.left = left + "px";
   }
 }
-
+ */
 /*-------------Новости----------------------------------------------------------------------- */
