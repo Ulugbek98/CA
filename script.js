@@ -1,9 +1,9 @@
 /*-------------Акции----------------------------------------------------------------------- */
- var click_left = document.querySelector(".slider-left-promo");
-var click_right = document.querySelector(".slider-right-promo");
-var sliderWidth = document.querySelector(".js-slider-promo").offsetWidth;
-var line = document.querySelector(".slider-items-promo");
-var slides = document.querySelectorAll(".item-promo");
+/* var click_left = document.querySelector(".slider-left");
+var click_right = document.querySelector(".slider-right");
+var sliderWidth = document.querySelector(".js-brands").offsetWidth;
+var line = document.querySelector(".slider-brands");
+var slides = document.querySelectorAll(".item-brands");
 var widthArray = [0];
 var lineWidth = 0;
 var offset = 0;
@@ -43,13 +43,13 @@ function sliderLeft() {
     left = pos_right + 265;
     line.style.left = left + "px";
   }
-}
+} */
 /*-------------Акции----------------------------------------------------------------------- */
 
 
 /*-------------Новости----------------------------------------------------------------------- */
-/* 
-var click_left_new = document.querySelector(".slider-left-new");
+
+/* var click_left_new = document.querySelector(".slider-left-new");
 var click_right_new = document.querySelector(".slider-right-new");
 var sliderWidth_new = document.querySelector(".js-slider-new").offsetWidth;
 var line_new = document.querySelector(".slider-items-new");
@@ -96,3 +96,24 @@ function sliderLeft() {
 }
  */
 /*-------------Новости----------------------------------------------------------------------- */
+
+
+/* слайдер таймер */
+
+autoSlider();
+var left = 0;
+var timer; 
+
+function autoSlider(){
+  timer = setTimeout(sliderLeft,2000);
+}
+function sliderLeft(){
+var slider_brands = document.querySelectorAll(".slider-brands");
+  left = left -170;
+  if(left<-900){
+    left = 0;
+    timer =0;
+  }
+autoSlider();
+  slider_brands.style.left = left + 'px';
+}

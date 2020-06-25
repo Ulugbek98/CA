@@ -32,8 +32,8 @@ body {
   margin-top: 30px;
 }
 
-.r-5 {
-  right: 2%;
+.r-15 {
+  right: 15px !important;
 }
 
 .banners {
@@ -69,7 +69,7 @@ body {
 
 .heading-block__view {
   position: absolute;
-  right: 0;
+  right: 0px;
   font-weight: 700;
   font-size: 14px;
   color: #0141a1;
@@ -602,7 +602,7 @@ strong {
 /* kids banner */
 .img-banner-left {
   margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -694,8 +694,7 @@ strong {
           box-shadow: 0px 1px 2px 2px #acacac;
   border-radius: 60px;
   display: block;
-  position: absolute;
-  top: 50%;
+  position: relative;
   z-index: 99;
   left: -2.4%;
 }
@@ -712,8 +711,7 @@ strong {
   border: 1px solid #fff;
   border-radius: 60px;
   display: block;
-  position: absolute;
-  top: 50%;
+  position: relative;
   z-index: 99;
   right: -3%;
 }
@@ -731,8 +729,8 @@ strong {
 .js-brands {
   position: relative;
   z-index: 1;
+  background: #ffffff;
   max-width: 1540px;
-  max-height: 400px;
   overflow: hidden;
   margin: 30px 0 10px 0;
   display: -webkit-box;
@@ -741,18 +739,23 @@ strong {
 }
 
 .js-brands .slider-brands {
+  width: 300% !important;
   position: relative;
-  display: block;
-  background: #f2f2f2;
-  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 10px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  border: 3px solid #000;
+  -webkit-transition: all ease 0.8s;
+  transition: all ease 0.8s;
   left: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .js-brands .slider-brands .item-brand {
-  float: left;
+  min-width: 160px;
+  margin-right: 10px;
+  max-width: 180px;
 }
 /*# sourceMappingURL=styles.css.map */
