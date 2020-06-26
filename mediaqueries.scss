@@ -1,101 +1,194 @@
+@media screen and (max-width:1400px) {
+   .category-box__caption {
+    margin-bottom: 10px
+  }
 
-  @media only screen and (max-width: 480px) {
-    .gl-banner__top-panel {
+   .category-box__title {
+    font-size: 18px;
+    min-height: 55px;
+  }
+}
+
+@media only screen and (max-width: 1370px) {
+  .banner-items {
+    grid-template-columns: repeat(auto-fit, minmax(170px, 2fr));
+    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-gap: 8px;
+  }
+}
+
+@media screen and (max-width:1330px) {
+  .rass-price__inner {
+    font-size: 11px;
+
+    .price {
+      font-size: 11px!important;
+    }
+
+    .price__price {
+      font-size: 14px!important;
+    }
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .banner-items {
+    grid-template-columns: repeat(auto-fit, minmax(270px, 2fr));
+    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-gap: 8px;
+  }
+
+   .category-box__title {
+    font-size: 18px;
+    min-height: 25px
+  }
+}
+
+@media (min-width: 679.98px) and (max-width: 767.98px) {
+  .banner-large .banner-large__image {
+    height: 110px !important;
+  }
+
+   .category-box__caption {
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px
+  }
+  .bycycle {
+    margin-right: 5px!important;
+
+}
+
+.stroller {
+  margin-right: 5px!important;
+}
+}
+
+@media only screen and (max-width: 700px) {
+  .gl-banner__top-panel {
+    small {
+      font-size: 18px;
+      line-height: 18px;
+    }
+
+    span {
+      font-size: 40px;
+      line-height: 40px;
+    }
+  }
+
+  .gl-banner {
+    dt {
+      margin: 0 15px 0 0;
+      font-size: 26px;
+    }
+
+    dd {
+      font-size: 20px;
+      line-height: 36px;
+    }
+  }
+  .heading-block__view{
+    font-size: 11px;
+  }
+  .category-box__title {
+    font-size: 15px!important;
+    min-height: 25px!important;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .banner-items {
+    grid-template-columns: repeat(auto-fit, minmax(190px, 2fr));
+    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-gap: 8px;
+  }
+  .mt-30{
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 540px) {
+  .banner-large .banner-large__image {
+    height: 70px !important;
+  }
+  .heading-block__view{
+    font-size: 11px;
+  }
+}
+@media only screen and(max-width: 540px) {
+  .banner-large .banner-large__image {
+    height: 70px !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .gl-banner__top-panel {
+    display: block;
+
+    small {
       display: block;
-  
-      small {
-        display: block;
-        margin: 0 0 15px;
-        text-align: center;
-  
-        br {
-          display: none;
-        }
-      }
-  
-      span {
-        display: block;
-        text-align: center;
-      }
-    }
-  
-    .gl-banner {
+      margin: 0 0 15px;
       text-align: center;
-  
-      dl {
-        display: block;
-      }
-  
-      dt {
-        display: block;
-        margin: 0 0 10px;
-      }
-  
-      dd {
-        display: inline-block;
-        vertical-align: top;
+
+      br {
+        display: none;
       }
     }
-  
-    .shop-page .h1 {
-      font-size: 22px;
-      line-height: 26px;
-    }
-  
-    .page-rassrochka .h2 {
-      margin-top: 20px;
+
+    span {
+      display: block;
+      text-align: center;
     }
   }
-  @media only screen and (max-width: 700px) {
-    .gl-banner__top-panel {
-      small {
-        font-size: 18px;
-        line-height: 18px;
-      }
-  
-      span {
-        font-size: 40px;
-        line-height: 40px;
-      }
+
+  .gl-banner {
+    text-align: center;
+
+    dl {
+      display: block;
     }
-  
-    .gl-banner {
-      dt {
-        margin: 0 15px 0 0;
-        font-size: 26px;
-      }
-  
-      dd {
-        font-size: 20px;
-        line-height: 36px;
-      }
+
+    dt {
+      display: block;
+      margin: 0 0 10px;
+    }
+
+    dd {
+      display: inline-block;
+      vertical-align: top;
     }
   }
-  
-  @media only screen and (max-width: 440px) {
-    .gl-banner__top-panel span {
-      font-size: 30px;
-    }
+
+  .shop-page .h1 {
+    font-size: 22px;
+    line-height: 26px;
   }
-  
-  @media only screen and (max-width: 380px) {
-    .service-list-page .ca-banner {
-      margin-bottom: 90px;
-    }
-  
-    .banner-large .banner-large__image {
-      height: 60px !important;
-    }
+
+  .page-rassrochka .h2 {
+    margin-top: 20px;
   }
-  
-  @media (min-width: 380px) and (max-width: 540px) {
-    .banner-large .banner-large__image {
-      height: 70px !important;
-    }
+}
+
+@media (max-width:479.98px) {
+  .category-box__caption {
+    padding-left: 5px;
+    padding-right: 5px
   }
-  
-  @media (min-width: 679.98px) and (max-width: 767.98px) {
-    .banner-large .banner-large__image {
-      height: 110px !important;
-    }
+}
+
+@media only screen and (max-width: 440px) {
+  .gl-banner__top-panel span {
+    font-size: 30px;
   }
+}
+
+@media only screen and (max-width: 380px) {
+  .service-list-page .ca-banner {
+    margin-bottom: 90px;
+  }
+
+  .banner-large .banner-large__image {
+    height: 60px !important;
+  }
+}
