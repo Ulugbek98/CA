@@ -561,88 +561,36 @@ strong {
 }
 
 /* kids banner */
+.banner-background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .img-banner-left {
   margin-top: 2%;
   margin-bottom: 1%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-}
-
-.img-banner-left .bycycle {
-  margin-right: 15px;
-  -webkit-box-flex: -1;
-      -ms-flex: -1 0 content;
-          flex: -1 0 content;
-  position: relative;
-}
-
-.img-banner-left .stroller {
-  margin-right: 15px;
-  -webkit-box-flex: -1;
-      -ms-flex: -1 0 content;
-          flex: -1 0 content;
-  position: relative;
-}
-
-.img-banner-left .category-box__caption {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  margin-bottom: 5px;
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-}
-
-.img-banner-left .category-box__title {
-  margin-top: auto;
-  font-size: 25px;
-  color: #2f3135;
-  font-weight: 700;
-  min-height: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.banner-kids {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.banner-kids .items-kids {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.banner-kids .items-kids .item-kids {
-  min-width: 235px;
-  -ms-flex-preferred-size: 16.66%;
-      flex-basis: 16.66%;
-  min-height: 200px;
+.img-banner-left a {
+  margin: 5px;
+}
+
+.img-banner-right {
+  margin-top: 2%;
+  margin-bottom: 1%;
 }
 
 /* kids banner end */
@@ -704,77 +652,46 @@ strong {
 
 /* electronics banner */
 .img-banner-electronics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.img-banner-electronics .electro-left {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.img-banner-electronics .electro-left a {
+  width: 100%;
+  height: 100%;
+}
+
+.img-banner-electronics .electro-right {
   margin-top: 2%;
   margin-bottom: 1%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-}
-
-.img-banner-electronics .smartphones {
-  margin-right: 15px;
-  -webkit-box-flex: -1;
-      -ms-flex: -1 0 content;
-          flex: -1 0 content;
-  position: relative;
-}
-
-.img-banner-electronics .pcs {
-  margin-right: 15px;
-  -webkit-box-flex: -1;
-      -ms-flex: -1 0 content;
-          flex: -1 0 content;
-  position: relative;
-}
-
-.img-banner-electronics .notebooks {
-  margin-right: 15px;
-  -webkit-box-flex: -1;
-      -ms-flex: -1 0 content;
-          flex: -1 0 content;
-  position: relative;
-}
-
-.img-banner-electronics .tvs {
-  -webkit-box-flex: -1;
-      -ms-flex: -1 0 content;
-          flex: -1 0 content;
-  position: relative;
-}
-
-.img-banner-electronics .category-box__caption {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  margin-bottom: 5px;
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-}
-
-.img-banner-electronics .category-box__title {
-  margin-top: auto;
-  font-size: 25px;
-  color: #2f3135;
-  font-weight: 700;
-  min-height: 65px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img-banner-electronics .electro-right a:nth-child(1) {
+  margin-right: 10px;
+}
+
+.img-banner-electronics .electro-right a:nth-child(2) {
+  margin-right: 10px;
 }
 
 /* home banner */

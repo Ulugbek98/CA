@@ -569,81 +569,28 @@ strong {
 }
 
 /* kids banner */
+.banner-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .img-banner-left {
     margin-top: 2%;
     margin-bottom: 1%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
+}
 
-
-    .bycycle {
-        margin-right: 15px;
-        flex: -1 0 content;
-        position: relative;
-    }
-
-    .stroller {
-        margin-right: 15px;
-        flex: -1 0 content;
-        position: relative;
-    }
-
-    .category-box__caption {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        margin-bottom: 5px;
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: center;
-    }
-
-    .category-box__title {
-        margin-top: auto;
-        font-size: 25px;
-        color: #2f3135;
-        font-weight: 700;
-        min-height: 40px;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
+.img-banner-left {
+    a {
+        margin: 5px;
     }
 }
 
-
-
-.banner-kids {
-    display: flex;
-    flex-wrap: wrap;
-
-    .items-kids {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-
-        //border: 3px solid #000;
-        .item-kids {
-            min-width: 235px;
-            flex-basis: 16.66%;
-            min-height: 200px;
-        }
-    }
-
+.img-banner-right {
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
 
 /* kids banner end */
@@ -703,70 +650,33 @@ strong {
 
 /* electronics banner */
 .img-banner-electronics {
-    margin-top: 2%;
-    margin-bottom: 1%;
     display: flex;
-    justify-content: start;
-
-
-    .smartphones {
-        margin-right: 15px;
-        flex: -1 0 content;
-        position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .electro-left {
+        margin-top: 2%;
+        margin-bottom: 1%;
+        a{
+            width: 100%;
+            height: 100%;
+        }
     }
-
-    .pcs {
-        margin-right: 15px;
-        flex: -1 0 content;
-        position: relative;
-    }
-
-    .notebooks {
-        margin-right: 15px;
-        flex: -1 0 content;
-        position: relative;
-    }
-
-    .tvs {
-        flex: -1 0 content;
-        position: relative;
-    }
-
-    .category-box__caption {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        margin-bottom: 5px;
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: center;
-    }
-
-    .category-box__title {
-        margin-top: auto;
-        font-size: 25px;
-        color: #2f3135;
-        font-weight: 700;
-        min-height: 65px;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
+    
+    .electro-right {
+        margin-top: 2%;
+        margin-bottom: 1%;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
+        justify-content: center; 
+        a:nth-child(1){
+       margin-right: 10px;
+        }
+        a:nth-child(2){
+       margin-right: 10px;
+        }
     }
+
+  
 }
 
 /* home banner */

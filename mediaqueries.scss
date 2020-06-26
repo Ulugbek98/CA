@@ -1,9 +1,9 @@
 @media screen and (max-width:1400px) {
-   .category-box__caption {
+  .category-box__caption {
     margin-bottom: 10px
   }
 
-   .category-box__title {
+  .category-box__title {
     font-size: 18px;
     min-height: 55px;
   }
@@ -22,11 +22,11 @@
     font-size: 11px;
 
     .price {
-      font-size: 11px!important;
+      font-size: 11px !important;
     }
 
     .price__price {
-      font-size: 14px!important;
+      font-size: 14px !important;
     }
   }
 }
@@ -38,7 +38,7 @@
     grid-gap: 8px;
   }
 
-   .category-box__title {
+  .category-box__title {
     font-size: 18px;
     min-height: 25px
   }
@@ -49,19 +49,40 @@
     height: 110px !important;
   }
 
-   .category-box__caption {
+  .category-box__caption {
     margin-bottom: 0;
     padding-left: 10px;
     padding-right: 10px
   }
+
   .bycycle {
-    margin-right: 5px!important;
+    margin-right: 5px !important;
 
+  }
+
+  .stroller {
+    margin-right: 5px !important;
+  }
 }
 
-.stroller {
-  margin-right: 5px!important;
+@media (min-width: 991.98px) {
+  .heading-block {
+    justify-content: center;
+  }
 }
+@media (max-width: 991.98px) {
+
+  .banner-background {
+    flex-wrap: wrap;
+  }
+
+  .img-banner-right {
+    order: -1;
+  }
+
+  .img-banner-left {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -88,22 +109,41 @@
       line-height: 36px;
     }
   }
-  .heading-block__view{
+
+  .heading-block__view {
     font-size: 11px;
   }
+
   .category-box__title {
-    font-size: 15px!important;
-    min-height: 25px!important;
+    font-size: 15px !important;
+    min-height: 25px !important;
   }
 }
 
 @media only screen and (max-width: 610px) {
   .banner-items {
-    grid-template-columns: repeat(auto-fit, minmax(190px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
     grid-template-rows: repeat(auto-fill, 1fr);
     grid-gap: 8px;
   }
-  .mt-30{
+
+  .mt-30 {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .banner-items {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-gap: 10px;
+  }
+
+  .rass-price__inner {
+    font-size: 9px;
+  }
+
+  .mt-30 {
     margin-top: 10px;
   }
 }
@@ -112,10 +152,12 @@
   .banner-large .banner-large__image {
     height: 70px !important;
   }
-  .heading-block__view{
+
+  .heading-block__view {
     font-size: 11px;
   }
 }
+
 @media only screen and(max-width: 540px) {
   .banner-large .banner-large__image {
     height: 70px !important;
@@ -180,6 +222,9 @@
 @media only screen and (max-width: 440px) {
   .gl-banner__top-panel span {
     font-size: 30px;
+  }
+  .heading-title{
+    font-size: 25px;
   }
 }
 
