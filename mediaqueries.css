@@ -124,13 +124,6 @@
 }
 
 @media only screen and (max-width: 410px) {
-  .banner-items {
-    -ms-grid-columns: (minmax(180px, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    -ms-grid-rows: (1fr)[auto-fill];
-        grid-template-rows: repeat(auto-fill, 1fr);
-    grid-gap: 10px;
-  }
   .rass-price__inner {
     font-size: 9px;
   }
@@ -139,7 +132,24 @@
   }
 }
 
+@media (min-width: 320px) and (max-width: 400px) {
+  .banner-items {
+    -ms-grid-columns: (minmax(100px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    -ms-grid-rows: (minmax(250px, 1fr))[auto-fill];
+        grid-template-rows: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 5px;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 540px) {
+  .banner-items {
+    -ms-grid-columns: (minmax(160px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    -ms-grid-rows: (1fr)[auto-fill];
+        grid-template-rows: repeat(auto-fill, 1fr);
+    grid-gap: 5px;
+  }
   .banner-large .banner-large__image {
     height: 70px !important;
   }
